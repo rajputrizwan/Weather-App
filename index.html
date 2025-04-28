@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Weather App</title>
 </head>
+
 <body>
     <div class="card">
         <div class="search">
             <input type="text" id="city-input" placeholder="Enter city name" spellcheck="false">
-            <button > <img src="images/search.png" alt=""></button>
+            <button> <img src="images/search.png" alt=""></button>
         </div>
+
+        <div class="error">
+            <p>Imvalid city name</p>
+        </div>
+
         <div class="weather">
             <img src="images/rain.png" class="weather-icon" alt="">
             <h1 class="temp">22°c</h1>
             <h2 class="city">New York</h2>
             <div class="details">
-                
+
                 <div class="col">
                     <img src="images/humidity.png" alt="">
                 </div>
@@ -39,4 +46,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
